@@ -1,0 +1,802 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 57,
+  "duration": 33.405378,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.069917,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.003153,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ],
+    [
+      1.674869,
+      "c"
+    ],
+    [
+      0.081604,
+      "a"
+    ],
+    [
+      0.221926,
+      "t"
+    ],
+    [
+      0.092011,
+      " "
+    ],
+    [
+      0.444328,
+      "1"
+    ],
+    [
+      0.164648,
+      "_trace_py_logging.sh "
+    ],
+    [
+      1.261867,
+      "\r\n"
+    ],
+    [
+      0.001118,
+      "#!/bin/sh\r\n\r\nif [ $# -eq 0 ]\r\n  then\r\n    echo \"Usage: `basename \"$0\"` PID\"\r\n    exit 1\r\nfi\r\n\r\n# Create a live session\r\nlttng create py_logging --live\r\n\r\n# Enable all Python agent (logger) events\r\nlttng track --userspace --pid $1\r\nlttng enable-event --python --all\r\n\r\nlttng start\r\n"
+    ],
+    [
+      0.000221,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.001015,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ],
+    [
+      5.825213,
+      "cat 1_trace_py_logging.sh "
+    ],
+    [
+      0.747365,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\u001b[2P./\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      1.505613,
+      "9"
+    ],
+    [
+      0.336168,
+      "7"
+    ],
+    [
+      0.155921,
+      "7"
+    ],
+    [
+      0.701935,
+      "9"
+    ],
+    [
+      1.206528,
+      "\r\n"
+    ],
+    [
+      0.017454,
+      "Session py_logging created.\r\nTraces will be written in net://127.0.0.1\r\nLive timer set to 1000000 usec\r\n"
+    ],
+    [
+      0.005111,
+      "PID 9779 tracked in session py_logging\r\n"
+    ],
+    [
+      0.051961,
+      "All Python events are enabled in channel channel0\r\n"
+    ],
+    [
+      0.009927,
+      "Tracing started for session py_logging\r\n"
+    ],
+    [
+      0.000662,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.001198,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ],
+    [
+      2.229187,
+      "l"
+    ],
+    [
+      1.400046,
+      "t"
+    ],
+    [
+      0.160046,
+      "t"
+    ],
+    [
+      0.233993,
+      "n"
+    ],
+    [
+      0.088018,
+      "g"
+    ],
+    [
+      0.128223,
+      " "
+    ],
+    [
+      0.341981,
+      "v"
+    ],
+    [
+      0.095794,
+      "i"
+    ],
+    [
+      0.102037,
+      "e"
+    ],
+    [
+      0.047906,
+      "w"
+    ],
+    [
+      0.781106,
+      "\r\n"
+    ],
+    [
+      0.007883,
+      "Trace directory: net://localhost/host/XThink/py_logging\r\n\r\n"
+    ],
+    [
+      0.525097,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143285,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143403,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143235,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14311,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143556,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316736,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143347,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143452,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143009,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143214,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143339,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316842,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143292,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143398,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143481,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143236,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143236,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316547,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143643,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143317,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143252,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143381,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316612,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143403,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.142985,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.145671,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.141479,
+      "\u001b[0m"
+    ],
+    [
+      0.000175,
+      "\u001b[0m"
+    ],
+    [
+      0.142861,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.403678,
+      "[\u001b[1m\u001b[33m01:59:29.107326989\u001b[0m] (+?.?????????) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m3\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,107\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000116,
+      "[\u001b[1m\u001b[33m01:59:29.107537351\u001b[0m] (+0.000210362) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m3\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,107\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /lttng.html HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n[\u001b[1m\u001b[33m01:59:29.107806992\u001b[0m] (+0.000269641) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m3\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,107\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      9.2e-05,
+      "[\u001b[1m\u001b[33m01:59:29.259534174\u001b[0m] (+0.151727182) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,259\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000148,
+      "[\u001b[1m\u001b[33m01:59:29.260132384\u001b[0m] (+0.000598210) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,259\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/css HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      8.2e-05,
+      "[\u001b[1m\u001b[33m01:59:29.261842057\u001b[0m] (+0.001709673) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,261\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.00014,
+      "[\u001b[1m\u001b[33m01:59:29.263290378\u001b[0m] (+0.001448321) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,263\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000131,
+      "[\u001b[1m\u001b[33m01:59:29.263545546\u001b[0m] (+0.000255168) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,263\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/fonts.css HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000121,
+      "[\u001b[1m\u001b[33m01:59:29.263916355\u001b[0m] (+0.000370809) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,263\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000119,
+      "[\u001b[1m\u001b[33m01:59:29.264810563\u001b[0m] (+0.000894208) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,264\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000117,
+      "[\u001b[1m\u001b[33m01:59:29.265037163\u001b[0m] (+0.000226600) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,264\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/master.css HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000126,
+      "[\u001b[1m\u001b[33m01:59:29.265406187\u001b[0m] (+0.000369024) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,265\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000124,
+      "[\u001b[1m\u001b[33m01:59:29.266056499\u001b[0m] (+0.000650312) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,265\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000134,
+      "[\u001b[1m\u001b[33m01:59:29.266245699\u001b[0m] (+0.000189200) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,266\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/home.css HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000128,
+      "[\u001b[1m\u001b[33m01:59:29.266531464\u001b[0m] (+0.000285765) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,266\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000104,
+      "[\u001b[1m\u001b[33m01:59:29.267072419\u001b[0m] (+0.000540955) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,266\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000133,
+      "[\u001b[1m\u001b[33m01:59:29.267264708\u001b[0m] (+0.000192289) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,267\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/jquery-2.1.4.min.js HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.00013,
+      "[\u001b[1m\u001b[33m01:59:29.269706211\u001b[0m] (+0.002441503) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,269\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.0001,
+      "[\u001b[1m\u001b[33m01:59:29.270754544\u001b[0m] (+0.001048333) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,270\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000129,
+      "[\u001b[1m\u001b[33m01:59:29.271298299\u001b[0m] (+0.000543755) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,271\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/count.js HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000374,
+      "[\u001b[1m\u001b[33m01:59:29.272284827\u001b[0m] (+0.000986528) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,271\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000135,
+      "[\u001b[1m\u001b[33m01:59:29.273718923\u001b[0m] (+0.001434096) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,273\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n[\u001b[1m\u001b[33m01:59:29.274259672\u001b[0m] (+0.000540749) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,274\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/jquery.easing.min.js HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n[\u001b[1m\u001b[33m01:59:29.274885590\u001b[0m] (+0.000625918"
+    ],
+    [
+      5.7e-05,
+      ") XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,274\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.6e-05,
+      "[\u001b[1m\u001b[33m01:59:29.276106885\u001b[0m] (+0.001221295) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,275\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000135,
+      "[\u001b[1m\u001b[33m01:59:29.276565659\u001b[0m] (+0.000458774) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,276\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/jquery.simplemodal.min.js HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      8.7e-05,
+      "[\u001b[1m\u001b[33m01:59:29.277199091\u001b[0m] (+0.000633432) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,276\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.0001,
+      "[\u001b[1m\u001b[33m01:59:29.278391634\u001b[0m] (+0.001192543) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,278\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000125,
+      "[\u001b[1m\u001b[33m01:59:29.278848159\u001b[0m] (+0.000456525) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,278\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/master.js HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000116,
+      "[\u001b[1m\u001b[33m01:59:29.279633926\u001b[0m] (+0.000785767) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,279\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000153,
+      "[\u001b[1m\u001b[33m01:59:29.442200380\u001b[0m] (+0.162566454) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,441\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.0001,
+      "[\u001b[1m\u001b[33m01:59:29.443574411\u001b[0m] (+0.001374031) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,442\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/tools.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000118,
+      "[\u001b[1m\u001b[33m01:59:29.445066482\u001b[0m] (+0.001492071) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,444\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000116,
+      "[\u001b[1m\u001b[33m01:59:29.446934062\u001b[0m] (+0.001867580) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,446\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000129,
+      "[\u001b[1m\u001b[33m01:59:29.447335665\u001b[0m] (+0.000401603) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,447\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/windy.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000108,
+      "[\u001b[1m\u001b[33m01:59:29.448095669\u001b[0m] (+0.000760004) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,447\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000117,
+      "[\u001b[1m\u001b[33m01:59:29.449690567\u001b[0m] (+0.001594898) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,449\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.00012,
+      "[\u001b[1m\u001b[33m01:59:29.450109595\u001b[0m] (+0.000419028) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,449\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/focus.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000115,
+      "[\u001b[1m\u001b[33m01:59:29.450845178\u001b[0m] (+0.000735583) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,450\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000113,
+      "[\u001b[1m\u001b[33m01:59:29.451816650\u001b[0m] (+0.000971472) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,451\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000125,
+      "[\u001b[1m\u001b[33m01:59:29.452141314\u001b[0m] (+0.000324664) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,452\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/stack-alt.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000111,
+      "[\u001b[1m\u001b[33m01:59:29.452799782\u001b[0m] (+0.000658468) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,452\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000117,
+      "[\u001b[1m\u001b[33m01:59:29.460421159\u001b[0m] (+0.007621377) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,459\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.00012,
+      "[\u001b[1m\u001b[33m01:59:29.461551159\u001b[0m] (+0.001130000) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,461\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/settings-alt.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000127,
+      "[\u001b[1m\u001b[33m01:59:29.462527512\u001b[0m] (+0.000976353) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,462\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000102,
+      "[\u001b[1m\u001b[33m01:59:29.464925992\u001b[0m] (+0.002398480) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,464\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000124,
+      "[\u001b[1m\u001b[33m01:59:29.465282274\u001b[0m] (+0.000356282) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,465\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/check-alt.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000113,
+      "[\u001b[1m\u001b[33m01:59:29.465873315\u001b[0m] (+0.000591041) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,465\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000113,
+      "[\u001b[1m\u001b[33m01:59:29.475231155\u001b[0m] (+0.009357840) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,474\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.00012,
+      "[\u001b[1m\u001b[33m01:59:29.475815941\u001b[0m] (+0.000584786) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,475\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /LTTng_files/dolly.png HTTP/1.1, code: 200, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000113,
+      "[\u001b[1m\u001b[33m01:59:29.476746535\u001b[0m] (+0.000930594) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,476\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.000115,
+      "[\u001b[1m\u001b[33m01:59:29.531325883\u001b[0m] (+0.054579348) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,530\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      9.2e-05,
+      "[\u001b[1m\u001b[33m01:59:29.531761537\u001b[0m] (+0.000435654) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,531\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.6e-05,
+      "[\u001b[1m\u001b[33m01:59:29.531921135\u001b[0m] (+0.000159598) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,531\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/logo-80.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.532578196\u001b[0m] (+0.000657061) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,532\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.9e-05,
+      "[\u001b[1m\u001b[33m01:59:29.533931441\u001b[0m] (+0.001353245) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,533\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.1e-05,
+      "[\u001b[1m\u001b[33m01:59:29.534653937\u001b[0m] (+0.000722496) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,534\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.535015406\u001b[0m] (+0.000361469) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,534\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/trace-bg.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.4e-05,
+      "[\u001b[1m\u001b[33m01:59:29.535834035\u001b[0m] (+0.000818629) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,535\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.9e-05,
+      "[\u001b[1m\u001b[33m01:59:29.537269464\u001b[0m] (+0.001435429) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,536\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.1e-05,
+      "[\u001b[1m\u001b[33m01:59:29.538294094\u001b[0m] (+0.001024630) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,537\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.6e-05,
+      "[\u001b[1m\u001b[33m01:59:29.538716889\u001b[0m] (+0.000422795) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,538\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/social-icons/16/github.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.539383607\u001b[0m] (+0.000666718) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,539\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.4e-05,
+      "[\u001b[1m\u001b[33m01:59:29.542028438\u001b[0m] (+0.002644831) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,541\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.8e-05,
+      "[\u001b[1m\u001b[33m01:59:29.542794365\u001b[0m] (+0.000765927) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,542\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.4e-05,
+      "[\u001b[1m\u001b[33m01:59:29.543245515\u001b[0m] (+0.000451150) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,542\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/social-icons/16/stackoverflow.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.544148714\u001b[0m] (+0.000903199) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,543\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.3e-05,
+      "[\u001b[1m\u001b[33m01:59:29.545516025\u001b[0m] (+0.001367311) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,545\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.6e-05,
+      "[\u001b[1m\u001b[33m01:59:29.546052132\u001b[0m] (+0.000536107) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,545\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.8e-05,
+      "[\u001b[1m\u001b[33m01:59:29.546261284\u001b[0m] (+0.000209152) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,546\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/social-icons/16/twitter.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.3e-05,
+      "[\u001b[1m\u001b[33m01:59:29.546561711\u001b[0m] (+0.000300427) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,546\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.547123503\u001b[0m] (+0.000561792) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,547\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.547428473\u001b[0m] (+0.000304970) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,547\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.547601533\u001b[0m] (+0.000173060) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,547\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /images/social-icons/16/openhub.png HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      5.7e-05,
+      "[\u001b[1m\u001b[33m01:59:29.548464797\u001b[0m] (+0.000863264) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,548\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      3e-05,
+      "[\u001b[1m\u001b[33m01:59:29.549907428\u001b[0m] (+0.001442631) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,549\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.7e-05,
+      "[\u001b[1m\u001b[33m01:59:29.550211865\u001b[0m] (+0.000304437) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,550\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.550377855\u001b[0m] (+0.000165990) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,550\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /fonts/NexaLight.otf HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.550813678\u001b[0m] (+0.000435823) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,550\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.6e-05,
+      "[\u001b[1m\u001b[33m01:59:29.551738345\u001b[0m] (+0.000924667) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,551\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"begin GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m13\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.5e-05,
+      "[\u001b[1m\u001b[33m01:59:29.552066241\u001b[0m] (+0.000327896) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,551\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 - code 404, message File not found\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_error\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m25\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m40\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.8e-05,
+      "[\u001b[1m\u001b[33m01:59:29.552248749\u001b[0m] (+0.000182508) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,552\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"127.0.0.1 request: GET /fonts/NexaBold.otf HTTP/1.1, code: 404, size: -\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"log_request\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m19\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      4.2e-05,
+      "[\u001b[1m\u001b[33m01:59:29.552614990\u001b[0m] (+0.000366241) XThink \u001b[1m\u001b[35mlttng_python:event\u001b[0m: { \u001b[36mcpu_id\u001b[0m = \u001b[1m1\u001b[0m }, { \u001b[36masctime\u001b[0m = \u001b[1m\"2017-11-18 01:59:29,552\"\u001b[0m, \u001b[36mmsg\u001b[0m = \u001b[1m\"end GET\"\u001b[0m, \u001b[36mlogger_name\u001b[0m = \u001b[1m\"HTTP-logger\"\u001b[0m, \u001b[36mfuncName\u001b[0m = \u001b[1m\"do_GET\"\u001b[0m, \u001b[36mlineno\u001b[0m = \u001b[1m15\u001b[0m, \u001b[36mint_loglevel\u001b[0m = \u001b[1m10\u001b[0m, \u001b[36mthread\u001b[0m = \u001b[1m4151659904\u001b[0m, \u001b[36mthreadName\u001b[0m = \u001b[1m\"MainThread\"\u001b[0m }\r\n"
+    ],
+    [
+      0.042177,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143417,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143447,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14334,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143306,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316751,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143374,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143129,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143478,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143285,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143352,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316579,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143486,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143316,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143213,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143399,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143397,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316623,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143395,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143328,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143405,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143271,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316503,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143368,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143337,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143452,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143342,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143222,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316696,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14338,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14337,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143245,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143421,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14325,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316456,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143508,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143399,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.114167,
+      "q"
+    ],
+    [
+      0.029185,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143373,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143229,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316763,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143328,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143276,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.053004,
+      "\b \b"
+    ],
+    [
+      0.090313,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.097714,
+      "^C"
+    ],
+    [
+      0.044414,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.002575,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ]
+  ]
+}

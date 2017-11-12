@@ -1,0 +1,2870 @@
+{
+  "version": 1,
+  "width": 238,
+  "height": 60,
+  "duration": 29.006302,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.067837,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.00093,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ],
+    [
+      1.415153,
+      "babeltrace --debug-info --plugin-path . --component source.ctf.lttng-live -u net://localhost/host/XThink/py_syscalls --component sink.pycon.StackView"
+    ],
+    [
+      1.36846,
+      "\r\n"
+    ],
+    [
+      1.24301,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143344,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.274328,
+      "2017-11-18 02:03:53.820634  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.217,
+      "\u001b[1m\u001b[33m            +500.127369 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.045353,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143384,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143241,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14324,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143608,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.490702,
+      "\u001b[1m\u001b[33m            +500.621198 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00243,
+      "\u001b[1m\u001b[33m            +500.645111 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043391,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143282,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143461,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143258,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.446737,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.187411,
+      "\u001b[1m\u001b[33m            +500.692242 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003293,
+      "\u001b[1m\u001b[33m            +500.674545 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.045781,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143445,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143402,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.493979,
+      "\u001b[1m\u001b[33m            +500.687767 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001977,
+      "\u001b[1m\u001b[33m            +500.688202 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043783,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143569,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143263,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143469,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.54086,
+      "\u001b[1m\u001b[33m             +500.62237 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002809,
+      "\u001b[1m\u001b[33m             +500.69309 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.042684,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14358,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143343,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143263,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.540153,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143891,
+      "\u001b[1m\u001b[33m            +500.639789 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003009,
+      "\u001b[1m\u001b[33m            +500.669717 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.046416,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143292,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143305,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.537855,
+      "\u001b[1m\u001b[33m            +500.667605 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002383,
+      "\u001b[1m\u001b[33m            +500.687941 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.042908,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143559,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143295,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143334,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.533259,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.277563,
+      "\u001b[1m\u001b[33m            +500.667333 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002825,
+      "\u001b[1m\u001b[33m             +500.70723 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.042981,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14344,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.636962,
+      "\u001b[1m\u001b[33m             +500.63992 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002258,
+      "\u001b[1m\u001b[33m            +500.660909 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043751,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.14363,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.142936,
+      "\u001b[0m"
+    ],
+    [
+      7.9e-05,
+      "\u001b[0m"
+    ],
+    [
+      0.360194,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.236498,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.231001,
+      "\u001b[1m\u001b[33m            +500.697808 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002119,
+      "\u001b[1m\u001b[33m            +500.633944 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043789,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143231,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.363132,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.233611,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.231192,
+      "\u001b[1m\u001b[33m            +500.640833 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003109,
+      "\u001b[1m\u001b[33m            +500.649889 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.045389,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143718,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.360058,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.232879,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.23089,
+      "\u001b[1m\u001b[33m            +500.680376 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003527,
+      "\u001b[1m\u001b[33m            +500.580839 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.046054,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143178,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.389899,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.274054,
+      "\u001b[1m\u001b[33m            +500.673874 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002557,
+      "\u001b[1m\u001b[33m            +500.675899 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043383,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143506,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143349,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.410021,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.230332,
+      "\u001b[1m\u001b[33m            +500.562703 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002311,
+      "\u001b[1m\u001b[33m            +500.129885 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043943,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143286,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143439,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.540544,
+      "\u001b[1m\u001b[33m            +500.611418 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002923,
+      "\u001b[1m\u001b[33m            +500.633702 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043175,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143276,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143325,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143443,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.453398,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.230537,
+      "\u001b[1m\u001b[33m            +500.682665 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002864,
+      "\u001b[1m\u001b[33m            +500.692748 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043007,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143438,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143489,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.453204,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.230511,
+      "\u001b[1m\u001b[33m            +500.715411 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002159,
+      "\u001b[1m\u001b[33m            +500.687202 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043871,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143535,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143299,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.453397,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.230478,
+      "\u001b[1m\u001b[33m            +500.654885 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002896,
+      "\u001b[1m\u001b[33m            +500.683996 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.04317,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143426,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316531,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.280078,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.337629,
+      "\u001b[1m\u001b[33m            +500.616358 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002553,
+      "\u001b[1m\u001b[33m            +500.718944 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.04301,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143493,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.903412,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.187218,
+      "\u001b[1m\u001b[33m            +500.464332 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002988,
+      "\u001b[1m\u001b[33m            +500.573358 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.001499,
+      "\u001b[1m\u001b[33m              +8.187717 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00149,
+      "\u001b[1m\u001b[34m               +191.854 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 375\u001b[0m\r\n"
+    ],
+    [
+      0.001636,
+      "\u001b[1m\u001b[34m               +488.719 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000664,
+      "\u001b[1m\u001b[34m                +88.498 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.001128,
+      "\u001b[1m\u001b[34m                +33.749 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.001066,
+      "\u001b[1m\u001b[34m                 +20.63 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/lttng.html\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001422,
+      "\u001b[1m\u001b[34m                +29.828 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/lttng.html\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000997,
+      "\u001b[1m\u001b[34m                 +6.504 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001172,
+      "\u001b[1m\u001b[34m                  +3.45 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.001255,
+      "\u001b[1m\u001b[34m                 +6.979 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000687,
+      "\u001b[1m\u001b[34m                +72.896 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m82\u001b[0m)\u001b[1m = 82\u001b[0m\r\n"
+    ],
+    [
+      0.000204,
+      "\u001b[1m\u001b[34m                +47.387 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /lttng.html HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000342,
+      "\u001b[1m\u001b[34m                +73.421 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000512,
+      "\u001b[1m\u001b[34m                +41.507 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m187\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 187\u001b[0m\r\n"
+    ],
+    [
+      0.000363,
+      "\u001b[1m\u001b[34m                +63.379 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 15288\u001b[0m\r\n"
+    ],
+    [
+      0.000359,
+      "\u001b[1m\u001b[34m                 +6.737 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m4096\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000469,
+      "\u001b[1m\u001b[34m                 +3.842 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147664\u001b[0m, len = \u001b[1m15288\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 15288\u001b[0m\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[1m\u001b[34m                 +15.42 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000341,
+      "\u001b[1m\u001b[34m                +13.538 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000534,
+      "\u001b[1m\u001b[34m                +66.777 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[1m\u001b[34m                 +50.89 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000367,
+      "\u001b[1m\u001b[34m                +44.473 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000325,
+      "\u001b[1m\u001b[34m                +20.931 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000689,
+      "\u001b[1m\u001b[34m                +18.431 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000427,
+      "\u001b[1m\u001b[33m             +95.967794 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000422,
+      "\u001b[1m\u001b[34m               +193.589 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 348\u001b[0m\r\n"
+    ],
+    [
+      0.000463,
+      "\u001b[1m\u001b[34m               +597.643 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.00021,
+      "\u001b[1m\u001b[34m               +164.121 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b[1m\u001b[34m                +49.023 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000341,
+      "\u001b[1m\u001b[34m                +39.619 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/css\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000415,
+      "\u001b[1m\u001b[34m                +37.095 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/css\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000324,
+      "\u001b[1m\u001b[34m                 +8.034 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000389,
+      "\u001b[1m\u001b[34m                 +5.203 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000374,
+      "\u001b[1m\u001b[34m                  +9.36 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000448,
+      "\u001b[1m\u001b[34m               +127.781 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m87\u001b[0m)\u001b[1m = 87\u001b[0m\r\n"
+    ],
+    [
+      0.000172,
+      "\u001b[1m\u001b[34m                +64.226 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/css HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000325,
+      "\u001b[1m\u001b[34m                +94.912 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000481,
+      "\u001b[1m\u001b[34m                +50.577 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569749072\u001b[0m, len = \u001b[1m202\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 202\u001b[0m\r\n"
+    ],
+    [
+      0.000325,
+      "\u001b[1m\u001b[34m                +39.963 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000706,
+      "\u001b[1m\u001b[34m                  +10.2 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147664\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000473,
+      "\u001b[1m\u001b[34m                +20.943 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 2811\u001b[0m\r\n"
+    ],
+    [
+      0.000522,
+      "\u001b[1m\u001b[34m                 +4.156 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000813,
+      "\u001b[1m\u001b[34m                 +5.661 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141167056\u001b[0m, len = \u001b[1m2811\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 2811\u001b[0m\r\n"
+    ],
+    [
+      0.00057,
+      "\u001b[1m\u001b[34m                +16.371 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000541,
+      "\u001b[1m\u001b[34m                +18.129 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001185,
+      "\u001b[1m\u001b[34m                +98.563 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000492,
+      "\u001b[1m\u001b[34m                +55.082 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000875,
+      "\u001b[1m\u001b[34m                +45.049 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000627,
+      "\u001b[1m\u001b[34m                +26.622 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001221,
+      "\u001b[1m\u001b[34m                +23.726 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000666,
+      "\u001b[1m\u001b[34m                +20.267 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000656,
+      "\u001b[1m\u001b[34m               +119.295 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 354\u001b[0m\r\n"
+    ],
+    [
+      0.00065,
+      "\u001b[1m\u001b[34m               +386.253 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000273,
+      "\u001b[1m\u001b[34m                +71.831 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000382,
+      "\u001b[1m\u001b[34m                +34.842 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000355,
+      "\u001b[1m\u001b[34m                +25.225 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/fonts.css\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000419,
+      "\u001b[1m\u001b[34m                 +27.39 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/fonts.css\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m                 +4.931 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000356,
+      "\u001b[1m\u001b[34m                 +3.274 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000398,
+      "\u001b[1m\u001b[34m                 +6.073 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000427,
+      "\u001b[1m\u001b[34m                +68.333 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000183,
+      "\u001b[1m\u001b[34m                +35.937 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/fonts.css HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000307,
+      "\u001b[1m\u001b[34m                +58.787 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000458,
+      "\u001b[1m\u001b[34m                +29.006 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000341,
+      "\u001b[1m\u001b[34m                +38.546 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 135\u001b[0m\r\n"
+    ],
+    [
+      0.000331,
+      "\u001b[1m\u001b[34m                 +5.649 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000449,
+      "\u001b[1m\u001b[34m                 +5.041 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147712\u001b[0m, len = \u001b[1m135\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 135\u001b[0m\r\n"
+    ],
+    [
+      0.000334,
+      "\u001b[1m\u001b[34m                +17.361 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000312,
+      "\u001b[1m\u001b[34m                  +16.8 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00043,
+      "\u001b[1m\u001b[34m                +89.869 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000255,
+      "\u001b[1m\u001b[34m               +133.596 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.00046,
+      "\u001b[1m\u001b[34m                +60.027 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000577,
+      "\u001b[1m\u001b[34m                +22.646 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000923,
+      "\u001b[1m\u001b[34m                +23.935 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000732,
+      "\u001b[1m\u001b[34m                +19.326 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000763,
+      "\u001b[1m\u001b[34m                +92.619 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 355\u001b[0m\r\n"
+    ],
+    [
+      0.000942,
+      "\u001b[1m\u001b[34m               +524.534 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000351,
+      "\u001b[1m\u001b[34m               +135.363 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000583,
+      "\u001b[1m\u001b[34m                +42.601 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000605,
+      "\u001b[1m\u001b[34m                +39.245 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/master.css\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000776,
+      "\u001b[1m\u001b[34m                +38.817 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/master.css\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000564,
+      "\u001b[1m\u001b[34m                  +6.36 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000679,
+      "\u001b[1m\u001b[34m                 +3.882 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000619,
+      "\u001b[1m\u001b[34m                 +6.268 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000716,
+      "\u001b[1m\u001b[34m                +72.538 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m94\u001b[0m)\u001b[1m = 94\u001b[0m\r\n"
+    ],
+    [
+      0.000375,
+      "\u001b[1m\u001b[34m                +41.497 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/master.css HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000648,
+      "\u001b[1m\u001b[34m                +58.933 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000468,
+      "\u001b[1m\u001b[34m                +29.137 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000367,
+      "\u001b[1m\u001b[34m                +38.625 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000474,
+      "\u001b[1m\u001b[34m                +10.362 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147936\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[1m\u001b[34m                +20.916 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000475,
+      "\u001b[1m\u001b[34m                 +8.682 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141166480\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000367,
+      "\u001b[1m\u001b[34m                +17.773 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 14516\u001b[0m\r\n"
+    ],
+    [
+      0.000358,
+      "\u001b[1m\u001b[34m                 +5.623 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m4096\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000474,
+      "\u001b[1m\u001b[34m                 +4.129 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147936\u001b[0m, len = \u001b[1m14516\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 14516\u001b[0m\r\n"
+    ],
+    [
+      0.000359,
+      "\u001b[1m\u001b[34m                +17.053 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +16.921 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000456,
+      "\u001b[1m\u001b[34m               +116.757 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m               +208.827 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000364,
+      "\u001b[1m\u001b[34m               +172.987 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +47.128 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000709,
+      "\u001b[1m\u001b[34m                +41.434 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000419,
+      "\u001b[1m\u001b[34m                +20.932 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000411,
+      "\u001b[1m\u001b[34m               +138.856 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 353\u001b[0m\r\n"
+    ],
+    [
+      0.000458,
+      "\u001b[1m\u001b[34m                +867.95 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000206,
+      "\u001b[1m\u001b[34m               +141.948 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000341,
+      "\u001b[1m\u001b[34m                +63.194 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000432,
+      "\u001b[1m\u001b[34m                  +46.9 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/home.css\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000418,
+      "\u001b[1m\u001b[34m                +65.224 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/home.css\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b[1m\u001b[34m                +17.319 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000358,
+      "\u001b[1m\u001b[34m                  +7.58 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[1m\u001b[34m                +13.676 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m               +159.376 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m92\u001b[0m)\u001b[1m = 92\u001b[0m\r\n"
+    ],
+    [
+      0.000174,
+      "\u001b[1m\u001b[34m                +91.626 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/home.css HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[1m\u001b[34m               +164.872 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001343,
+      "\u001b[1m\u001b[34m                +63.766 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n\u001b[1m\u001b[34m               +115.447 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 790\u001b[0m\r\n"
+    ],
+    [
+      0.000413,
+      "\u001b[1m\u001b[34m                +11.053 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000559,
+      "\u001b[1m\u001b[34m                 +6.848 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141147936\u001b[0m, len = \u001b[1m790\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 790\u001b[0m\r\n"
+    ],
+    [
+      0.000358,
+      "\u001b[1m\u001b[34m                +25.194 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00031,
+      "\u001b[1m\u001b[34m                 +23.38 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000441,
+      "\u001b[1m\u001b[34m                +279.37 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000183,
+      "\u001b[1m\u001b[34m               +167.395 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000366,
+      "\u001b[1m\u001b[34m               +180.481 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00034,
+      "\u001b[1m\u001b[34m                +62.214 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000746,
+      "\u001b[1m\u001b[34m                +62.168 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000437,
+      "\u001b[1m\u001b[34m                +39.024 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000444,
+      "\u001b[1m\u001b[34m               +220.896 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 349\u001b[0m\r\n"
+    ],
+    [
+      0.00057,
+      "\u001b[1m\u001b[34m               +599.491 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000242,
+      "\u001b[1m\u001b[34m               +115.994 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000479,
+      "\u001b[1m\u001b[34m                +61.084 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000304,
+      "\u001b[1m\u001b[34m                +45.579 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery-2.1.4.min.js\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000386,
+      "\u001b[1m\u001b[34m                +53.314 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery-2.1.4.min.js\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000323,
+      "\u001b[1m\u001b[34m                +13.408 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000352,
+      "\u001b[1m\u001b[34m                 +7.186 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000353,
+      "\u001b[1m\u001b[34m                +12.226 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000418,
+      "\u001b[1m\u001b[34m               +134.833 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m103\u001b[0m)\u001b[1m = 103\u001b[0m\r\n"
+    ],
+    [
+      0.000175,
+      "\u001b[1m\u001b[34m                +96.598 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/jquery-2.1.4.min.js HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000295,
+      "\u001b[1m\u001b[34m               +119.512 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00044,
+      "\u001b[1m\u001b[34m                +54.488 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569749072\u001b[0m, len = \u001b[1m200\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 200\u001b[0m\r\n"
+    ],
+    [
+      0.000321,
+      "\u001b[1m\u001b[34m                +85.889 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000439,
+      "\u001b[1m\u001b[34m                +21.851 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148816\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000324,
+      "\u001b[1m\u001b[34m                 +30.84 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000494,
+      "\u001b[1m\u001b[34m                +15.797 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141166528\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000339,
+      "\u001b[1m\u001b[34m                +24.468 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.00043,
+      "\u001b[1m\u001b[34m                +12.655 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148816\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000318,
+      "\u001b[1m\u001b[34m                +20.635 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000771,
+      "\u001b[1m\u001b[34m                +12.511 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141166528\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.00051,
+      "\u001b[1m\u001b[34m                +15.572 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000786,
+      "\u001b[1m\u001b[34m                +10.547 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148816\u001b[0m, len = \u001b[1m16384\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 16384\u001b[0m\r\n"
+    ],
+    [
+      0.000632,
+      "\u001b[1m\u001b[34m                +27.093 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 2425\u001b[0m\r\n"
+    ],
+    [
+      0.000628,
+      "\u001b[1m\u001b[34m                 +4.368 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000742,
+      "\u001b[1m\u001b[34m                 +4.717 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141166528\u001b[0m, len = \u001b[1m2425\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 2425\u001b[0m\r\n"
+    ],
+    [
+      0.000563,
+      "\u001b[1m\u001b[34m                +12.158 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000549,
+      "\u001b[1m\u001b[34m                +20.563 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000734,
+      "\u001b[1m\u001b[34m               +140.542 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000291,
+      "\u001b[1m\u001b[34m                +117.12 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000543,
+      "\u001b[1m\u001b[34m                +149.88 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000502,
+      "\u001b[1m\u001b[34m                +63.934 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00102,
+      "\u001b[1m\u001b[34m                +52.186 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000708,
+      "\u001b[1m\u001b[34m                +42.061 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00062,
+      "\u001b[1m\u001b[34m               +293.306 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 338\u001b[0m\r\n"
+    ],
+    [
+      0.000478,
+      "\u001b[1m\u001b[34m               +676.383 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.00018,
+      "\u001b[1m\u001b[34m               +159.703 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000305,
+      "\u001b[1m\u001b[34m                +93.813 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000302,
+      "\u001b[1m\u001b[34m                 +80.35 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/count.js\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00039,
+      "\u001b[1m\u001b[34m                +92.968 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/count.js\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000303,
+      "\u001b[1m\u001b[34m                +16.414 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[1m\u001b[34m                +13.039 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000369,
+      "\u001b[1m\u001b[34m                +23.811 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000425,
+      "\u001b[1m\u001b[34m               +251.886 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m92\u001b[0m)\u001b[1m = 92\u001b[0m\r\n"
+    ],
+    [
+      0.000177,
+      "\u001b[1m\u001b[34m                +98.922 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/count.js HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000302,
+      "\u001b[1m\u001b[34m               +127.985 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000447,
+      "\u001b[1m\u001b[34m                +53.326 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869584534784\u001b[0m, len = \u001b[1m199\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 199\u001b[0m\r\n"
+    ],
+    [
+      0.000331,
+      "\u001b[1m\u001b[34m               +114.706 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 1517\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[1m\u001b[34m                 +12.27 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000444,
+      "\u001b[1m\u001b[34m                +11.425 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148864\u001b[0m, len = \u001b[1m1517\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 1517\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m                +43.763 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000305,
+      "\u001b[1m\u001b[34m                +34.238 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000423,
+      "\u001b[1m\u001b[34m               +199.699 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000178,
+      "\u001b[1m\u001b[34m                +92.473 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000334,
+      "\u001b[1m\u001b[34m                +83.543 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000298,
+      "\u001b[1m\u001b[34m                +54.464 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000648,
+      "\u001b[1m\u001b[34m                +52.414 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000397,
+      "\u001b[1m\u001b[34m                +46.589 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00039,
+      "\u001b[1m\u001b[34m               +329.216 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 350\u001b[0m\r\n"
+    ],
+    [
+      0.000423,
+      "\u001b[1m\u001b[33m              +1.030445 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000264,
+      "\u001b[1m\u001b[34m               +289.594 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000454,
+      "\u001b[1m\u001b[34m                +56.101 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000448,
+      "\u001b[1m\u001b[34m                +43.452 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery.easing.min.js\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000605,
+      "\u001b[1m\u001b[34m                +46.188 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery.easing.min.js\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000453,
+      "\u001b[1m\u001b[34m                 +9.387 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000568,
+      "\u001b[1m\u001b[34m                 +5.793 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000592,
+      "\u001b[1m\u001b[34m                  +9.29 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000849,
+      "\u001b[1m\u001b[34m               +114.936 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m104\u001b[0m)\u001b[1m = 104\u001b[0m\r\n"
+    ],
+    [
+      0.000237,
+      "\u001b[1m\u001b[34m                 +72.44 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/jquery.easing.min.js HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000467,
+      "\u001b[1m\u001b[34m                +87.026 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000456,
+      "\u001b[1m\u001b[34m                +50.082 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869584534784\u001b[0m, len = \u001b[1m199\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 199\u001b[0m\r\n"
+    ],
+    [
+      0.000331,
+      "\u001b[1m\u001b[34m                +48.005 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 5555\u001b[0m\r\n"
+    ],
+    [
+      0.000363,
+      "\u001b[1m\u001b[34m                 +6.513 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000445,
+      "\u001b[1m\u001b[34m                 +5.581 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148864\u001b[0m, len = \u001b[1m5555\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 5555\u001b[0m\r\n"
+    ],
+    [
+      0.000355,
+      "\u001b[1m\u001b[34m                +21.571 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00032,
+      "\u001b[1m\u001b[34m                +18.151 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000486,
+      "\u001b[1m\u001b[34m                +95.602 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.00018,
+      "\u001b[1m\u001b[34m                +54.503 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000333,
+      "\u001b[1m\u001b[34m                +45.154 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000298,
+      "\u001b[1m\u001b[34m                +20.574 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000702,
+      "\u001b[1m\u001b[34m                +17.437 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000494,
+      "\u001b[1m\u001b[34m                +14.126 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000444,
+      "\u001b[1m\u001b[34m                +91.465 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 355\u001b[0m\r\n"
+    ],
+    [
+      0.00042,
+      "\u001b[1m\u001b[34m               +328.565 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000175,
+      "\u001b[1m\u001b[34m                +54.709 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000299,
+      "\u001b[1m\u001b[34m                +27.128 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000294,
+      "\u001b[1m\u001b[34m                +25.252 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery.simplemodal.min.js\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000384,
+      "\u001b[1m\u001b[34m                 +24.92 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/jquery.simplemodal.min.js\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000292,
+      "\u001b[1m\u001b[34m                 +5.234 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000353,
+      "\u001b[1m\u001b[34m                 +3.165 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000353,
+      "\u001b[1m\u001b[34m                 +5.174 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000416,
+      "\u001b[1m\u001b[34m                +65.959 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m109\u001b[0m)\u001b[1m = 109\u001b[0m\r\n"
+    ],
+    [
+      0.000174,
+      "\u001b[1m\u001b[34m                +47.079 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/jquery.simplemodal.min.js HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[1m\u001b[34m                +58.989 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000436,
+      "\u001b[1m\u001b[34m                +29.377 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869584534784\u001b[0m, len = \u001b[1m199\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 199\u001b[0m\r\n"
+    ],
+    [
+      0.000324,
+      "\u001b[1m\u001b[34m                +40.126 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 9769\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m                 +7.036 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m4096\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000868,
+      "\u001b[1m\u001b[34m                 +4.588 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m9769\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 9769\u001b[0m\r\n"
+    ],
+    [
+      0.00051,
+      "\u001b[1m\u001b[34m                +19.767 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000506,
+      "\u001b[1m\u001b[34m                +17.425 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000828,
+      "\u001b[1m\u001b[34m                +93.079 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000361,
+      "\u001b[1m\u001b[34m                +51.326 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000629,
+      "\u001b[1m\u001b[34m                +40.306 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000518,
+      "\u001b[1m\u001b[34m                +19.091 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001022,
+      "\u001b[1m\u001b[34m                +16.112 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000681,
+      "\u001b[1m\u001b[34m                +14.246 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000605,
+      "\u001b[1m\u001b[34m                +85.082 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 339\u001b[0m\r\n"
+    ],
+    [
+      0.000712,
+      "\u001b[1m\u001b[34m               +333.071 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000303,
+      "\u001b[1m\u001b[34m                +54.813 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000457,
+      "\u001b[1m\u001b[34m                +26.667 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000451,
+      "\u001b[1m\u001b[34m                +23.003 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/master.js\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000735,
+      "\u001b[1m\u001b[34m                +25.766 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/master.js\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000453,
+      "\u001b[1m\u001b[34m                  +5.45 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000431,
+      "\u001b[1m\u001b[34m                 +3.017 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000394,
+      "\u001b[1m\u001b[34m                 +5.249 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00042,
+      "\u001b[1m\u001b[34m                +65.441 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000158,
+      "\u001b[1m\u001b[34m                +45.487 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/master.js HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000289,
+      "\u001b[1m\u001b[34m                +58.299 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000453,
+      "\u001b[1m\u001b[34m                +29.554 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869584534784\u001b[0m, len = \u001b[1m199\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 199\u001b[0m\r\n"
+    ],
+    [
+      0.00034,
+      "\u001b[1m\u001b[34m                +32.788 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 5379\u001b[0m\r\n"
+    ],
+    [
+      0.000332,
+      "\u001b[1m\u001b[34m                 +4.722 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000501,
+      "\u001b[1m\u001b[34m                  +3.25 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m5379\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 5379\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m                +12.183 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000296,
+      "\u001b[1m\u001b[34m                 +10.56 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m                +61.638 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000179,
+      "\u001b[1m\u001b[34m                +47.911 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000338,
+      "\u001b[1m\u001b[34m                +40.013 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000294,
+      "\u001b[1m\u001b[34m                +22.886 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000655,
+      "\u001b[1m\u001b[34m                +19.897 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000397,
+      "\u001b[1m\u001b[33m              +91.58713 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000391,
+      "\u001b[1m\u001b[34m               +440.006 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 339\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[33m              +1.160497 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000182,
+      "\u001b[1m\u001b[34m               +246.412 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000314,
+      "\u001b[1m\u001b[34m               +120.768 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[1m\u001b[34m                +83.677 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/tools.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000387,
+      "\u001b[1m\u001b[34m               +102.298 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/tools.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000296,
+      "\u001b[1m\u001b[34m                +23.658 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000369,
+      "\u001b[1m\u001b[34m                +14.332 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000407,
+      "\u001b[1m\u001b[34m                +21.442 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000422,
+      "\u001b[1m\u001b[34m                +281.53 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000158,
+      "\u001b[1m\u001b[34m                +275.65 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/tools.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000306,
+      "\u001b[1m\u001b[34m               +205.712 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000443,
+      "\u001b[1m\u001b[34m               +113.104 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000491,
+      "\u001b[1m\u001b[34m                +351.77 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 3901\u001b[0m\r\n"
+    ],
+    [
+      0.000502,
+      "\u001b[1m\u001b[34m                +14.005 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00074,
+      "\u001b[1m\u001b[34m                +14.155 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m3901\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 3901\u001b[0m\r\n"
+    ],
+    [
+      0.000547,
+      "\u001b[1m\u001b[34m                 +57.87 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000444,
+      "\u001b[1m\u001b[34m                +39.871 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000738,
+      "\u001b[1m\u001b[34m               +263.341 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000503,
+      "\u001b[1m\u001b[34m               +154.807 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000387,
+      "\u001b[1m\u001b[34m               +167.203 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000487,
+      "\u001b[1m\u001b[34m               +108.142 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000829,
+      "\u001b[1m\u001b[34m                +66.074 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000476,
+      "\u001b[1m\u001b[33m               +3.25421 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000438,
+      "\u001b[1m\u001b[34m               +200.905 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 339\u001b[0m\r\n"
+    ],
+    [
+      0.000465,
+      "\u001b[1m\u001b[34m                +698.34 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000378,
+      "\u001b[1m\u001b[34m               +119.299 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000243,
+      "\u001b[1m\u001b[34m                +62.687 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.00034,
+      "\u001b[1m\u001b[34m                 +47.98 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/windy.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m                +56.277 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/windy.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000344,
+      "\u001b[1m\u001b[34m                +12.469 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000462,
+      "\u001b[1m\u001b[34m                 +6.233 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000531,
+      "\u001b[1m\u001b[34m                +11.141 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.0005,
+      "\u001b[1m\u001b[34m               +177.279 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[1m\u001b[34m                +91.835 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/windy.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[1m\u001b[34m               +121.136 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000476,
+      "\u001b[1m\u001b[34m                +60.131 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[1m\u001b[34m                +225.24 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 3251\u001b[0m\r\n"
+    ],
+    [
+      0.000366,
+      "\u001b[1m\u001b[34m                +17.344 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000476,
+      "\u001b[1m\u001b[34m                +11.232 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m3251\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 3251\u001b[0m\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[1m\u001b[34m               +414.382 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000382,
+      "\u001b[1m\u001b[34m                 +46.61 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00072,
+      "\u001b[1m\u001b[34m               +348.374 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000254,
+      "\u001b[1m\u001b[34m               +179.803 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000585,
+      "\u001b[1m\u001b[34m               +138.889 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000632,
+      "\u001b[1m\u001b[34m                +77.346 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001203,
+      "\u001b[1m\u001b[34m                +70.143 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.001168,
+      "\u001b[1m\u001b[33m              +8.312889 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000698,
+      "\u001b[1m\u001b[34m               +433.133 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 339\u001b[0m\r\n"
+    ],
+    [
+      0.000713,
+      "\u001b[1m\u001b[34m               +720.918 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000299,
+      "\u001b[1m\u001b[34m                 +74.09 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000498,
+      "\u001b[1m\u001b[34m                +31.047 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000516,
+      "\u001b[1m\u001b[34m                +25.634 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/focus.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000604,
+      "\u001b[1m\u001b[34m                +27.454 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/focus.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000546,
+      "\u001b[1m\u001b[34m                 +5.893 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000581,
+      "\u001b[1m\u001b[34m                 +3.397 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.00056,
+      "\u001b[1m\u001b[34m                 +6.844 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00052,
+      "\u001b[1m\u001b[34m                +70.353 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m                +51.217 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/focus.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[1m\u001b[34m                 +89.44 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000478,
+      "\u001b[1m\u001b[34m                +52.021 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000363,
+      "\u001b[1m\u001b[34m                +52.611 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 2230\u001b[0m\r\n"
+    ],
+    [
+      0.00036,
+      "\u001b[1m\u001b[34m                 +6.066 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m12288\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000484,
+      "\u001b[1m\u001b[34m                 +5.266 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m2230\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 2230\u001b[0m\r\n"
+    ],
+    [
+      0.000359,
+      "\u001b[1m\u001b[34m                +18.572 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +16.781 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000454,
+      "\u001b[1m\u001b[34m               +114.749 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m                +58.434 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000364,
+      "\u001b[1m\u001b[34m                +59.165 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +26.507 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000683,
+      "\u001b[1m\u001b[34m                +24.221 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000432,
+      "\u001b[1m\u001b[33m              +6.297327 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00042,
+      "\u001b[1m\u001b[34m                +207.34 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 343\u001b[0m\r\n"
+    ],
+    [
+      0.000457,
+      "\u001b[1m\u001b[34m               +517.055 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000204,
+      "\u001b[1m\u001b[34m               +112.201 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000331,
+      "\u001b[1m\u001b[34m                 +50.44 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[1m\u001b[34m                +41.975 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/stack-alt.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000457,
+      "\u001b[1m\u001b[34m                +43.559 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/stack-alt.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m                 +9.514 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000387,
+      "\u001b[1m\u001b[34m                 +5.028 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000396,
+      "\u001b[1m\u001b[34m                 +9.849 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000454,
+      "\u001b[1m\u001b[34m               +157.877 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m97\u001b[0m)\u001b[1m = 97\u001b[0m\r\n"
+    ],
+    [
+      0.00021,
+      "\u001b[1m\u001b[34m                +82.176 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/stack-alt.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m               +111.641 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000553,
+      "\u001b[1m\u001b[34m                +67.718 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000364,
+      "\u001b[1m\u001b[34m                +61.131 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 7354\u001b[0m\r\n"
+    ],
+    [
+      0.000357,
+      "\u001b[1m\u001b[34m                 +7.271 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000474,
+      "\u001b[1m\u001b[34m                  +6.75 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m7354\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 7354\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m               +146.383 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000319,
+      "\u001b[1m\u001b[34m                +20.941 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000448,
+      "\u001b[1m\u001b[34m               +131.566 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000178,
+      "\u001b[1m\u001b[34m                +75.808 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000337,
+      "\u001b[1m\u001b[34m                +71.856 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.0003,
+      "\u001b[1m\u001b[34m                +26.403 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00094,
+      "\u001b[1m\u001b[34m                +25.061 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000713,
+      "\u001b[1m\u001b[34m                +29.718 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000559,
+      "\u001b[1m\u001b[34m               +222.125 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 346\u001b[0m\r\n"
+    ],
+    [
+      0.000473,
+      "\u001b[1m\u001b[33m              +1.352095 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.00019,
+      "\u001b[1m\u001b[34m               +223.049 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000306,
+      "\u001b[1m\u001b[34m               +124.064 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[1m\u001b[34m               +503.701 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/settings-alt.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000392,
+      "\u001b[1m\u001b[34m               +153.444 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/settings-alt.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000299,
+      "\u001b[1m\u001b[34m                +28.736 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000365,
+      "\u001b[1m\u001b[34m                +18.724 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000361,
+      "\u001b[1m\u001b[34m                +31.559 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000436,
+      "\u001b[1m\u001b[34m               +528.797 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m100\u001b[0m)\u001b[1m = 100\u001b[0m\r\n"
+    ],
+    [
+      0.000184,
+      "\u001b[1m\u001b[34m               +198.396 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/settings-alt.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000297,
+      "\u001b[1m\u001b[34m               +225.034 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000534,
+      "\u001b[1m\u001b[34m               +125.773 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000432,
+      "\u001b[1m\u001b[34m               +128.668 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 6005\u001b[0m\r\n"
+    ],
+    [
+      0.000345,
+      "\u001b[1m\u001b[34m                +25.709 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000439,
+      "\u001b[1m\u001b[34m                +304.18 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m6005\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 6005\u001b[0m\r\n"
+    ],
+    [
+      0.000325,
+      "\u001b[1m\u001b[34m               +113.506 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000289,
+      "\u001b[1m\u001b[34m                +60.996 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m               +352.934 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000173,
+      "\u001b[1m\u001b[34m               +293.373 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +249.91 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000292,
+      "\u001b[1m\u001b[34m               +105.833 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000677,
+      "\u001b[1m\u001b[34m                +75.137 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000626,
+      "\u001b[1m\u001b[34m                +60.114 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000581,
+      "\u001b[1m\u001b[34m               +438.419 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 343\u001b[0m\r\n"
+    ],
+    [
+      0.000774,
+      "\u001b[1m\u001b[33m              +1.196086 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000357,
+      "\u001b[1m\u001b[34m               +200.052 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.0006,
+      "\u001b[1m\u001b[34m                +93.697 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000594,
+      "\u001b[1m\u001b[34m                 +65.01 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/check-alt.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000653,
+      "\u001b[1m\u001b[34m                +78.814 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/check-alt.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000525,
+      "\u001b[1m\u001b[34m                +19.081 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000641,
+      "\u001b[1m\u001b[34m                 +9.566 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.00057,
+      "\u001b[1m\u001b[34m                +22.132 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000684,
+      "\u001b[1m\u001b[34m               +188.965 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m97\u001b[0m)\u001b[1m = 97\u001b[0m\r\n"
+    ],
+    [
+      0.000312,
+      "\u001b[1m\u001b[34m               +135.465 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/check-alt.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000481,
+      "\u001b[1m\u001b[33m              +2.021981 ms\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000767,
+      "\u001b[1m\u001b[34m               +297.529 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000699,
+      "\u001b[1m\u001b[34m               +459.929 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 6083\u001b[0m\r\n"
+    ],
+    [
+      0.000509,
+      "\u001b[1m\u001b[34m                +10.586 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000516,
+      "\u001b[1m\u001b[34m                 +9.862 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m6083\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 6083\u001b[0m\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[1m\u001b[34m               +258.617 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m                +41.729 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000455,
+      "\u001b[1m\u001b[34m               +272.084 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[1m\u001b[34m               +547.393 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[1m\u001b[34m                 +87.86 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b[1m\u001b[34m                 +30.78 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000678,
+      "\u001b[1m\u001b[34m                +20.568 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.00043,
+      "\u001b[1m\u001b[34m                 +18.38 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000422,
+      "\u001b[1m\u001b[34m               +140.992 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 339\u001b[0m\r\n"
+    ],
+    [
+      0.000455,
+      "\u001b[1m\u001b[34m               +450.483 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000206,
+      "\u001b[1m\u001b[34m                +76.112 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000332,
+      "\u001b[1m\u001b[34m                +32.903 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000326,
+      "\u001b[1m\u001b[34m                +27.062 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/dolly.png\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000427,
+      "\u001b[1m\u001b[34m                +28.613 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/LTTng_files/dolly.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000331,
+      "\u001b[1m\u001b[34m                 +7.084 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000386,
+      "\u001b[1m\u001b[34m                 +5.086 μs\u001b[0m  \u001b[1m\u001b[36mioctl\u001b[0m(fd = \u001b[1m26\u001b[0m, cmd = \u001b[1m21505\u001b[0m, arg = \u001b[1m140720643789456\u001b[0m)\u001b[1m\u001b[31m = -25\u001b[0m\r\n"
+    ],
+    [
+      0.000388,
+      "\u001b[1m\u001b[34m                 +8.676 μs\u001b[0m  \u001b[1m\u001b[36mlseek\u001b[0m(fd = \u001b[1m26\u001b[0m, offset = \u001b[1m0\u001b[0m, whence = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000455,
+      "\u001b[1m\u001b[34m               +115.946 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m93\u001b[0m)\u001b[1m = 93\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m                +70.407 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /LTTng_files/dolly.png HTTP/1.1, code: 200, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m                +78.984 μs\u001b[0m  \u001b[1m\u001b[36mnewfstat\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000477,
+      "\u001b[1m\u001b[34m                +59.081 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m186\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 186\u001b[0m\r\n"
+    ],
+    [
+      0.000358,
+      "\u001b[1m\u001b[34m               +136.561 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 4105\u001b[0m\r\n"
+    ],
+    [
+      0.000365,
+      "\u001b[1m\u001b[34m                 +4.704 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m8192\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000473,
+      "\u001b[1m\u001b[34m                   +4.9 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m93894141148768\u001b[0m, len = \u001b[1m4105\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 4105\u001b[0m\r\n"
+    ],
+    [
+      0.000359,
+      "\u001b[1m\u001b[34m                +24.154 μs\u001b[0m  \u001b[1m\u001b[36mread\u001b[0m(fd = \u001b[1m26\u001b[0m, count = \u001b[1m16384\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                +18.706 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m26\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000452,
+      "\u001b[1m\u001b[34m               +110.425 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000205,
+      "\u001b[1m\u001b[34m                +63.991 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.00035,
+      "\u001b[1m\u001b[34m                +64.353 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000327,
+      "\u001b[1m\u001b[34m                 +25.07 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00066,
+      "\u001b[1m\u001b[34m                +25.112 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000404,
+      "\u001b[1m\u001b[33m             +49.872313 ms\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000414,
+      "\u001b[1m\u001b[34m               +159.326 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 348\u001b[0m\r\n"
+    ],
+    [
+      0.000431,
+      "\u001b[1m\u001b[34m                +537.97 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000178,
+      "\u001b[1m\u001b[34m                +78.026 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000307,
+      "\u001b[1m\u001b[34m                 +35.42 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.001171,
+      "\u001b[1m\u001b[34m                +28.209 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/logo-80.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n\u001b[1m\u001b[34m                +31.253 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/logo-80.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000632,
+      "\u001b[1m\u001b[34m               +112.584 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000198,
+      "\u001b[1m\u001b[34m                +77.603 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000424,
+      "\u001b[1m\u001b[34m                +94.602 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m90\u001b[0m)\u001b[1m = 90\u001b[0m\r\n"
+    ],
+    [
+      0.000249,
+      "\u001b[1m\u001b[34m                +60.965 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/logo-80.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000463,
+      "\u001b[1m\u001b[34m               +137.909 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000459,
+      "\u001b[1m\u001b[34m                +34.204 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000441,
+      "\u001b[1m\u001b[34m               +107.704 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000195,
+      "\u001b[1m\u001b[34m                +46.621 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000333,
+      "\u001b[1m\u001b[34m                +55.578 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000308,
+      "\u001b[1m\u001b[34m                +14.215 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000673,
+      "\u001b[1m\u001b[34m                +19.776 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000483,
+      "\u001b[1m\u001b[34m                +15.334 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00052,
+      "\u001b[1m\u001b[34m               +112.239 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 347\u001b[0m\r\n"
+    ],
+    [
+      0.000455,
+      "\u001b[1m\u001b[34m               +361.682 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000183,
+      "\u001b[1m\u001b[34m                +48.302 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000304,
+      "\u001b[1m\u001b[34m                +28.848 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.00032,
+      "\u001b[1m\u001b[34m                 +38.92 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/trace-bg.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000387,
+      "\u001b[1m\u001b[34m                +33.526 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/trace-bg.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000499,
+      "\u001b[1m\u001b[34m                +84.278 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.00018,
+      "\u001b[1m\u001b[34m                +42.976 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000444,
+      "\u001b[1m\u001b[34m                +73.889 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m91\u001b[0m)\u001b[1m = 91\u001b[0m\r\n"
+    ],
+    [
+      0.000157,
+      "\u001b[1m\u001b[34m                +35.416 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/trace-bg.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.00074,
+      "\u001b[1m\u001b[34m               +305.958 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000686,
+      "\u001b[1m\u001b[34m                +43.627 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000725,
+      "\u001b[1m\u001b[34m               +127.126 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000382,
+      "\u001b[1m\u001b[34m                +72.592 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000659,
+      "\u001b[1m\u001b[34m                +80.563 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000587,
+      "\u001b[1m\u001b[34m                 +48.29 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.001052,
+      "\u001b[1m\u001b[34m                +67.325 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000674,
+      "\u001b[1m\u001b[34m                +57.049 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.00064,
+      "\u001b[1m\u001b[34m                 +388.6 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 363\u001b[0m\r\n"
+    ],
+    [
+      0.000663,
+      "\u001b[1m\u001b[33m              +1.488922 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000312,
+      "\u001b[1m\u001b[34m               +253.852 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000501,
+      "\u001b[1m\u001b[34m               +133.923 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000475,
+      "\u001b[1m\u001b[34m                +144.52 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/github.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000558,
+      "\u001b[1m\u001b[34m               +135.746 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/github.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000727,
+      "\u001b[1m\u001b[34m               +414.286 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000313,
+      "\u001b[1m\u001b[34m               +219.374 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000542,
+      "\u001b[1m\u001b[34m               +350.204 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m105\u001b[0m)\u001b[1m = 105\u001b[0m\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[1m\u001b[34m               +167.714 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/social-icons/16/github.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000477,
+      "\u001b[1m\u001b[34m                +409.66 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000474,
+      "\u001b[1m\u001b[34m                +95.922 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000454,
+      "\u001b[1m\u001b[34m               +325.348 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m               +253.752 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000372,
+      "\u001b[1m\u001b[34m               +187.333 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m                +76.845 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000676,
+      "\u001b[1m\u001b[34m                +70.823 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000429,
+      "\u001b[1m\u001b[34m                +59.131 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000422,
+      "\u001b[1m\u001b[34m               +395.168 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 370\u001b[0m\r\n"
+    ],
+    [
+      0.000452,
+      "\u001b[1m\u001b[33m              +1.365416 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m               +233.092 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000329,
+      "\u001b[1m\u001b[34m               +126.372 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000303,
+      "\u001b[1m\u001b[34m               +139.529 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/stackoverflow.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m               +108.297 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/stackoverflow.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000451,
+      "\u001b[1m\u001b[34m                +339.26 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000203,
+      "\u001b[1m\u001b[33m               +1.70564 ms\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000456,
+      "\u001b[1m\u001b[34m               +183.259 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m112\u001b[0m)\u001b[1m = 112\u001b[0m\r\n"
+    ],
+    [
+      0.000208,
+      "\u001b[1m\u001b[34m                +83.675 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/social-icons/16/stackoverflow.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000463,
+      "\u001b[1m\u001b[34m               +265.685 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000466,
+      "\u001b[1m\u001b[34m               +178.062 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000436,
+      "\u001b[1m\u001b[34m               +320.141 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000183,
+      "\u001b[1m\u001b[34m               +112.236 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000317,
+      "\u001b[1m\u001b[34m                +95.369 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00029,
+      "\u001b[1m\u001b[34m                +55.967 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000635,
+      "\u001b[1m\u001b[34m                +34.609 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000391,
+      "\u001b[1m\u001b[34m                +24.963 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.0004,
+      "\u001b[1m\u001b[34m               +141.553 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 364\u001b[0m\r\n"
+    ],
+    [
+      0.000697,
+      "\u001b[1m\u001b[33m              +1.084036 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n\u001b[1m\u001b[34m                +154.73 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000261,
+      "\u001b[1m\u001b[34m                +54.733 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.00046,
+      "\u001b[1m\u001b[34m                +61.254 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/twitter.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000644,
+      "\u001b[1m\u001b[34m                +44.476 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/twitter.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000661,
+      "\u001b[1m\u001b[34m               +149.331 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000257,
+      "\u001b[1m\u001b[34m                +76.308 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000664,
+      "\u001b[1m\u001b[34m               +201.581 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m106\u001b[0m)\u001b[1m = 106\u001b[0m\r\n"
+    ],
+    [
+      0.000267,
+      "\u001b[1m\u001b[34m                +73.967 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/social-icons/16/twitter.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.00113,
+      "\u001b[1m\u001b[34m               +162.602 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000582,
+      "\u001b[1m\u001b[34m                +53.072 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.00065,
+      "\u001b[1m\u001b[34m               +128.719 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[1m\u001b[34m                +76.527 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000338,
+      "\u001b[1m\u001b[34m                +80.754 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m                +33.163 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000649,
+      "\u001b[1m\u001b[34m                +28.646 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000422,
+      "\u001b[1m\u001b[34m                +23.736 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000396,
+      "\u001b[1m\u001b[34m               +157.945 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 364\u001b[0m\r\n"
+    ],
+    [
+      0.000424,
+      "\u001b[1m\u001b[34m               +682.078 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000181,
+      "\u001b[1m\u001b[34m               +158.347 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000303,
+      "\u001b[1m\u001b[34m               +107.102 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.0003,
+      "\u001b[1m\u001b[34m               +110.372 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/openhub.png\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000435,
+      "\u001b[1m\u001b[34m                +70.164 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/images/social-icons/16/openhub.png\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000545,
+      "\u001b[1m\u001b[34m               +208.789 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000262,
+      "\u001b[1m\u001b[34m               +105.434 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000438,
+      "\u001b[1m\u001b[34m               +170.806 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m106\u001b[0m)\u001b[1m = 106\u001b[0m\r\n"
+    ],
+    [
+      0.000176,
+      "\u001b[1m\u001b[34m                +79.918 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /images/social-icons/16/openhub.png HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000469,
+      "\u001b[1m\u001b[34m               +182.747 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000437,
+      "\u001b[1m\u001b[34m                 +59.61 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000734,
+      "\u001b[1m\u001b[34m               +150.226 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000281,
+      "\u001b[1m\u001b[34m                +79.919 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000556,
+      "\u001b[1m\u001b[34m                +82.462 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00055,
+      "\u001b[1m\u001b[34m                +31.981 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.00121,
+      "\u001b[1m\u001b[34m                +28.332 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.000711,
+      "\u001b[1m\u001b[34m                +24.585 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000719,
+      "\u001b[1m\u001b[34m                +158.55 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 411\u001b[0m\r\n"
+    ],
+    [
+      0.000844,
+      "\u001b[1m\u001b[34m               +983.255 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[1m\u001b[34m               +199.575 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000525,
+      "\u001b[1m\u001b[34m               +119.747 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.00054,
+      "\u001b[1m\u001b[34m                +98.404 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/fonts/NexaLight.otf\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000676,
+      "\u001b[1m\u001b[34m               +122.449 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/fonts/NexaLight.otf\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000666,
+      "\u001b[1m\u001b[34m               +401.622 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000308,
+      "\u001b[1m\u001b[34m               +193.248 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000766,
+      "\u001b[1m\u001b[34m               +352.635 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m91\u001b[0m)\u001b[1m = 91\u001b[0m\r\n"
+    ],
+    [
+      0.000345,
+      "\u001b[1m\u001b[34m               +184.726 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /fonts/NexaLight.otf HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.00054,
+      "\u001b[1m\u001b[34m               +402.953 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581857744\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000475,
+      "\u001b[1m\u001b[34m               +153.092 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000455,
+      "\u001b[1m\u001b[34m               +349.759 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m               +180.849 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.000361,
+      "\u001b[1m\u001b[34m               +169.089 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000334,
+      "\u001b[1m\u001b[34m                +80.531 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000678,
+      "\u001b[1m\u001b[34m                +75.296 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 1\u001b[0m\r\n"
+    ],
+    [
+      0.00043,
+      "\u001b[1m\u001b[34m                +59.649 μs\u001b[0m  \u001b[1m\u001b[36maccept4\u001b[0m(fd = \u001b[1m6\u001b[0m, upeer_sockaddr = \u001b[1m140720643795152\u001b[0m, upeer_addrlen = \u001b[1m16\u001b[0m, flags = \u001b[1m524288\u001b[0m)\u001b[1m = 25\u001b[0m\r\n"
+    ],
+    [
+      0.000421,
+      "\u001b[1m\u001b[34m                +391.82 μs\u001b[0m  \u001b[1m\u001b[36mrecvfrom\u001b[0m(fd = \u001b[1m25\u001b[0m, size = \u001b[1m8192\u001b[0m, flags = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 410\u001b[0m\r\n"
+    ],
+    [
+      0.00045,
+      "\u001b[1m\u001b[33m              +1.316553 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m28\u001b[0m)\u001b[1m = 28\u001b[0m\r\n"
+    ],
+    [
+      0.000206,
+      "\u001b[1m\u001b[34m               +185.926 μs\u001b[0m  \u001b[1m\u001b[35mbegin GET\u001b[0m\r\n"
+    ],
+    [
+      0.000328,
+      "\u001b[1m\u001b[34m                +114.25 μs\u001b[0m  \u001b[1m\u001b[36mgetcwd\u001b[0m(size = \u001b[1m1024\u001b[0m)\u001b[1m = 46\u001b[0m\r\n"
+    ],
+    [
+      0.000335,
+      "\u001b[1m\u001b[34m                +93.749 μs\u001b[0m  \u001b[1m\u001b[36mnewstat\u001b[0m(filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/fonts/NexaBold.otf\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000428,
+      "\u001b[1m\u001b[34m               +118.461 μs\u001b[0m  \u001b[1m\u001b[36mopenat\u001b[0m(dfd = \u001b[1m-100\u001b[0m, filename = \u001b[1m/home/jgalar/EfficiOS/confs/PyCon.Canada.2017/fonts/NexaBold.otf\u001b[0m, flags = \u001b[1m524288\u001b[0m, mode = \u001b[1m0\u001b[0m)\u001b[1m\u001b[31m = -2\u001b[0m\r\n"
+    ],
+    [
+      0.000453,
+      "\u001b[1m\u001b[34m               +339.946 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m63\u001b[0m)\u001b[1m = 63\u001b[0m\r\n"
+    ],
+    [
+      0.000211,
+      "\u001b[1m\u001b[34m               +161.916 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 - code 404, message File not found\u001b[0m\r\n"
+    ],
+    [
+      0.000458,
+      "\u001b[1m\u001b[34m               +295.748 μs\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m90\u001b[0m)\u001b[1m = 90\u001b[0m\r\n"
+    ],
+    [
+      0.000206,
+      "\u001b[1m\u001b[34m               +139.567 μs\u001b[0m  \u001b[1m\u001b[35m127.0.0.1 request: GET /fonts/NexaBold.otf HTTP/1.1, code: 404, size: -\u001b[0m\r\n"
+    ],
+    [
+      0.000476,
+      "\u001b[1m\u001b[34m               +331.076 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869581858416\u001b[0m, len = \u001b[1m184\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 184\u001b[0m\r\n"
+    ],
+    [
+      0.000474,
+      "\u001b[1m\u001b[34m               +429.746 μs\u001b[0m  \u001b[1m\u001b[36msendto\u001b[0m(fd = \u001b[1m25\u001b[0m, buff = \u001b[1m139869569741888\u001b[0m, len = \u001b[1m469\u001b[0m, flags = \u001b[1m0\u001b[0m, addr = \u001b[1m0\u001b[0m, addr_len = \u001b[1m0\u001b[0m)\u001b[1m = 469\u001b[0m\r\n"
+    ],
+    [
+      0.000452,
+      "\u001b[1m\u001b[33m              +2.157362 ms\u001b[0m  \u001b[1m\u001b[36mwrite\u001b[0m(fd = \u001b[1m2\u001b[0m, buf = \u001b[1m93894139166976\u001b[0m, count = \u001b[1m26\u001b[0m)\u001b[1m = 26\u001b[0m\r\n"
+    ],
+    [
+      0.000207,
+      "\u001b[1m\u001b[34m               +122.518 μs\u001b[0m  \u001b[1m\u001b[35mend GET\u001b[0m\r\n"
+    ],
+    [
+      0.00035,
+      "\u001b[1m\u001b[34m                  +76.4 μs\u001b[0m  \u001b[1m\u001b[36mshutdown\u001b[0m(fd = \u001b[1m25\u001b[0m, how = \u001b[1m1\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000334,
+      "\u001b[1m\u001b[34m               +100.863 μs\u001b[0m  \u001b[1m\u001b[36mclose\u001b[0m(fd = \u001b[1m25\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.000649,
+      "\u001b[1m\u001b[34m                +72.128 μs\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.393645,
+      "\u001b[1m\u001b[33m            +500.614894 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003021,
+      "\u001b[1m\u001b[33m            +500.725206 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.04281,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143439,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.359983,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.31401,
+      "\u001b[1m\u001b[33m             +500.66729 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.002846,
+      "\u001b[1m\u001b[33m            +500.666688 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043127,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143441,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143308,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.359915,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.236822,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.230419,
+      "\u001b[1m\u001b[33m            +500.677822 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.003249,
+      "\u001b[1m\u001b[33m            +500.674615 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.042735,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.143441,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.316767,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.280025,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.206743,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.273855,
+      "\u001b[1m\u001b[33m            +500.692196 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.043341,
+      "\u001b[1m\u001b[33m            +500.690866 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.419991,
+      "\u001b[1m\u001b[33m            +500.696536 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)\u001b[1m = 0\u001b[0m\r\n"
+    ],
+    [
+      0.04238,
+      "^C"
+    ],
+    [
+      0.003373,
+      "\u001b[0m\u001b[0m"
+    ],
+    [
+      0.093348,
+      "\u001b[1m\u001b[33m            +500.683266 ms\u001b[0m  \u001b[1m\u001b[36mpoll\u001b[0m(timeout_msecs = \u001b[1m500\u001b[0m, nfds = \u001b[1m1\u001b[0m, fds_length = \u001b[1m1\u001b[0m, overflow = \u001b[1m0\u001b[0m, fds = \u001b[1m[{'fd': 6, 'raw_events': 1, 'events': {'POLLIN': 1, 'POLLPRI': 0, 'POLLOUT': 0, 'POLLERR': 0, 'POLLHUP': 0}}]\u001b[0m)"
+    ],
+    [
+      0.018338,
+      "\u001b]0;jgalar@XThink:~/EfficiOS/confs/PyCon.Canada.2017\u0007"
+    ],
+    [
+      0.000797,
+      "\u001b[01;32m[jgalar@XThink \u001b[01;34m~/EfficiOS/confs/PyCon.Canada.2017\u001b[01;32m]\u001b[01;34m$\u001b[00m "
+    ]
+  ]
+}

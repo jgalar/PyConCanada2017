@@ -1,0 +1,434 @@
+From d676ec95d7fcd5fae706d3582d3370f54641e158 Mon Sep 17 00:00:00 2001
+From: Francis Deslauriers <francis.deslauriers@efficios.com>
+Date: Thu, 23 Feb 2017 14:21:41 -0500
+Subject: [PATCH] Add LTTng-UST probe and tracepoints
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Francis Deslauriers <francis.deslauriers@efficios.com>
+Signed-off-by: Jérémie Galarneau <jeremie.galarneau@efficios.com>
+---
+ Include/cpython_inst.h      | 28 +++++++++++++++++
+ Include/pylttngust_probes.h | 73 +++++++++++++++++++++++++++++++++++++++++++++
+ Makefile.pre.in             | 11 ++++---
+ Modules/gcmodule.c          | 10 +++----
+ Objects/pylttngust.c        |  4 +++
+ Python/ceval.c              | 39 ++++++++++++------------
+ configure                   | 33 ++++++++++++++++++++
+ pyconfig.h.in               |  3 ++
+ 8 files changed, 173 insertions(+), 28 deletions(-)
+ create mode 100644 Include/cpython_inst.h
+ create mode 100644 Include/pylttngust_probes.h
+ create mode 100644 Objects/pylttngust.c
+
+diff --git a/Include/cpython_inst.h b/Include/cpython_inst.h
+new file mode 100644
+index 0000000000..2eb81068f7
+--- /dev/null
++++ b/Include/cpython_inst.h
+@@ -0,0 +1,28 @@
++#ifndef CPYTHON_INSTRUMENTATION_H
++#define CPYTHON_INSTRUMENTATION_H
++
++
++#if defined(WITH_LTTNGUST)
++#include <lttng/tracepoint.h>
++#include <pylttngust_probes.h>
++#define PyTrace(name, ...) \
++	do_tracepoint(python, name, __VA_ARGS__)
++#define PyTraceEnabled(name) \
++	tracepoint_enabled(python, name)
++
++#elif defined(WITH_DTRACE)
++
++#define SDT_USE_VARIADIC
++#include "pydtrace_probes.h"
++
++#define PyTrace(name, ...) \
++	STAP_PROBEV(python, name, ##__VA_ARGS__)
++#define PyTraceEnabled(name) \
++	__builtin_expect (python_##name##_semaphore, 0)
++#else
++/* Without DTrace or UST, compile to nothing. */
++#define PyTrace(...) {}
++#define PyTraceEnabled(...) (0)
++
++#endif
++#endif //CPYTHON_INSTRUMENTATION_H
+diff --git a/Include/pylttngust_probes.h b/Include/pylttngust_probes.h
+new file mode 100644
+index 0000000000..3811140cc8
+--- /dev/null
++++ b/Include/pylttngust_probes.h
+@@ -0,0 +1,73 @@
++#undef TRACEPOINT_PROVIDER
++#define TRACEPOINT_PROVIDER python
++
++#undef TRACEPOINT_INCLUDE
++#define TRACEPOINT_INCLUDE "./pylttngust_probes.h"
++
++#if !defined(_TP_H) || defined(TRACEPOINT_HEADER_MULTI_READ)
++#define _TP_H
++
++#include <lttng/tracepoint.h>
++
++#endif
++
++#include <lttng/tracepoint-event.h>
++
++TRACEPOINT_EVENT(
++        python,
++        line,
++        TP_ARGS(
++            const char *, co_filename,
++            const char *, co_name,
++            int, line_no
++            ),
++        TP_FIELDS(
++            ctf_string(co_filename, co_filename)
++            ctf_string(co_name, co_name)
++            ctf_integer(int, line_no, line_no)
++            )
++        )
++TRACEPOINT_EVENT(
++        python,
++        function__entry,
++        TP_ARGS(const char *, co_filename,
++            const char *, co_name,
++            int, line_no),
++        TP_FIELDS(
++            ctf_string(co_filename, co_filename)
++            ctf_string(co_name, co_name)
++            ctf_integer(int, line_no, line_no)
++            )
++        )
++TRACEPOINT_EVENT(
++        python,
++        function__return,
++        TP_ARGS(const char *, co_filename,
++            const char *, co_name,
++            int, line_no),
++        TP_FIELDS(
++            ctf_string(co_filename, co_filename)
++            ctf_string(co_name, co_name)
++            ctf_integer(int, line_no, line_no)
++            )
++        )
++TRACEPOINT_EVENT(
++        python,
++        gc__start,
++        TP_ARGS(
++            int, generation
++            ),
++        TP_FIELDS(
++            ctf_integer(int, generation, generation)
++            )
++        )
++TRACEPOINT_EVENT(
++        python,
++        gc__done,
++        TP_ARGS(
++            long, collected
++            ),
++        TP_FIELDS(
++            ctf_integer(long int, collected, collected)
++            )
++        )
+diff --git a/Makefile.pre.in b/Makefile.pre.in
+index 6cb0c63e5d..bc9aaaf622 100644
+--- a/Makefile.pre.in
++++ b/Makefile.pre.in
+@@ -52,7 +52,9 @@ LLVM_PROF_ERR=@LLVM_PROF_ERR@
+ DTRACE=         @DTRACE@
+ DFLAGS=         @DFLAGS@
+ DTRACE_HEADERS= @DTRACE_HEADERS@
++LTTNGUST_HEADERS= @LTTNGUST_HEADERS@
+ DTRACE_OBJS=    @DTRACE_OBJS@
++LTTNGUST_OBJS=    @LTTNGUST_OBJS@
+ 
+ GNULD=		@GNULD@
+ 
+@@ -365,7 +367,8 @@ PYTHON_OBJS=	\
+ 		$(LIBOBJS) \
+ 		$(MACHDEP_OBJS) \
+ 		$(THREADOBJ) \
+-		$(DTRACE_OBJS)
++		$(DTRACE_OBJS) \
++		$(LTTNGUST_OBJS)
+ 
+ 
+ ##########################################################################
+@@ -956,7 +959,7 @@ PYTHON_HEADERS= \
+ 		$(srcdir)/Include/pycapsule.h \
+ 		$(srcdir)/Include/pyctype.h \
+ 		$(srcdir)/Include/pydebug.h \
+-		$(srcdir)/Include/pydtrace.h \
++		$(srcdir)/Include/cpython_inst.h \
+ 		$(srcdir)/Include/pyerrors.h \
+ 		$(srcdir)/Include/pyfpe.h \
+ 		$(srcdir)/Include/pyhash.h \
+@@ -988,8 +991,8 @@ PYTHON_HEADERS= \
+ 		$(srcdir)/Include/weakrefobject.h \
+ 		pyconfig.h \
+ 		$(PARSER_HEADERS) \
+-		$(srcdir)/Include/Python-ast.h \
+-		$(DTRACE_HEADERS)
++		$(DTRACE_HEADERS) \
++		$(LTTNGUST_HEADERS)
+ 
+ $(LIBRARY_OBJS) $(MODOBJS) Programs/python.o: $(PYTHON_HEADERS)
+ 
+diff --git a/Modules/gcmodule.c b/Modules/gcmodule.c
+index 754348e20a..0e8ff751fe 100644
+--- a/Modules/gcmodule.c
++++ b/Modules/gcmodule.c
+@@ -25,7 +25,7 @@
+ 
+ #include "Python.h"
+ #include "frameobject.h"        /* for PyFrame_ClearFreeList */
+-#include "pydtrace.h"
++#include "cpython_inst.h"
+ #include "pytime.h"             /* for _PyTime_GetMonotonicClock() */
+ 
+ /* Get an object's GC head */
+@@ -926,8 +926,8 @@ collect(int generation, Py_ssize_t *n_collected, Py_ssize_t *n_uncollectable,
+         PySys_WriteStderr("\n");
+     }
+ 
+-    if (PyDTrace_GC_START_ENABLED())
+-        PyDTrace_GC_START(generation);
++    if (PyTraceEnabled(gc__start))
++        PyTrace(gc__start, generation);
+ 
+     /* update collection and allocation counters */
+     if (generation+1 < NUM_GENERATIONS)
+@@ -1074,8 +1074,8 @@ collect(int generation, Py_ssize_t *n_collected, Py_ssize_t *n_uncollectable,
+     stats->collected += m;
+     stats->uncollectable += n;
+ 
+-    if (PyDTrace_GC_DONE_ENABLED())
+-        PyDTrace_GC_DONE(n+m);
++    if (PyTraceEnabled(gc__done))
++        PyTrace(gc__done, n+m);
+ 
+     return n+m;
+ }
+diff --git a/Objects/pylttngust.c b/Objects/pylttngust.c
+new file mode 100644
+index 0000000000..e2005ecb62
+--- /dev/null
++++ b/Objects/pylttngust.c
+@@ -0,0 +1,4 @@
++#define TRACEPOINT_DEFINE
++#define TRACEPOINT_CREATE_PROBES
++
++#include <pylttngust_probes.h>
+diff --git a/Python/ceval.c b/Python/ceval.c
+index b6ad444e70..94ba44a845 100644
+--- a/Python/ceval.c
++++ b/Python/ceval.c
+@@ -15,7 +15,7 @@
+ #include "dictobject.h"
+ #include "frameobject.h"
+ #include "opcode.h"
+-#include "pydtrace.h"
++#include "cpython_inst.h"
+ #include "setobject.h"
+ #include "structmember.h"
+ 
+@@ -51,9 +51,9 @@ static void call_exc_trace(Py_tracefunc, PyObject *,
+                            PyThreadState *, PyFrameObject *);
+ static int maybe_call_line_trace(Py_tracefunc, PyObject *,
+                                  PyThreadState *, PyFrameObject *, int *, int *, int *);
+-static void maybe_dtrace_line(PyFrameObject *, int *, int *, int *);
+-static void dtrace_function_entry(PyFrameObject *);
+-static void dtrace_function_return(PyFrameObject *);
++static void maybe_pytrace_line(PyFrameObject *, int *, int *, int *);
++static void pytrace_function_entry(PyFrameObject *);
++static void pytrace_function_return(PyFrameObject *);
+ 
+ static PyObject * cmp_outcome(int, PyObject *, PyObject *);
+ static PyObject * import_name(PyFrameObject *, PyObject *, PyObject *, PyObject *);
+@@ -861,7 +861,7 @@ _PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag)
+ #ifdef LLTRACE
+ #define FAST_DISPATCH() \
+     { \
+-        if (!lltrace && !_Py_TracingPossible && !PyDTrace_LINE_ENABLED()) { \
++        if (!lltrace && !_Py_TracingPossible && !PyTraceEnabled(line)) { \
+             f->f_lasti = INSTR_OFFSET(); \
+             NEXTOPARG(); \
+             goto *opcode_targets[opcode]; \
+@@ -871,7 +871,7 @@ _PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag)
+ #else
+ #define FAST_DISPATCH() \
+     { \
+-        if (!_Py_TracingPossible && !PyDTrace_LINE_ENABLED()) { \
++        if (!_Py_TracingPossible && !PyTraceEnabled(line)) { \
+             f->f_lasti = INSTR_OFFSET(); \
+             NEXTOPARG(); \
+             goto *opcode_targets[opcode]; \
+@@ -1074,8 +1074,8 @@ _PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag)
+         }
+     }
+ 
+-    if (PyDTrace_FUNCTION_ENTRY_ENABLED())
+-        dtrace_function_entry(f);
++    if (PyTraceEnabled(function__entry))
++        pytrace_function_entry(f);
+ 
+     co = f->f_code;
+     names = co->co_names;
+@@ -1209,8 +1209,8 @@ _PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag)
+     fast_next_opcode:
+         f->f_lasti = INSTR_OFFSET();
+ 
+-        if (PyDTrace_LINE_ENABLED())
+-            maybe_dtrace_line(f, &instr_lb, &instr_ub, &instr_prev);
++        if (PyTraceEnabled(line))
++            maybe_pytrace_line(f, &instr_lb, &instr_ub, &instr_prev);
+ 
+         /* line-by-line tracing support */
+ 
+@@ -3716,8 +3716,9 @@ fast_yield:
+ 
+     /* pop frame */
+ exit_eval_frame:
+-    if (PyDTrace_FUNCTION_RETURN_ENABLED())
+-        dtrace_function_return(f);
++    if (PyTraceEnabled(function__return))
++        pytrace_function_return(f);
++
+     Py_LeaveRecursiveCall();
+     f->f_executing = 0;
+     tstate->frame = f->f_back;
+@@ -5509,7 +5510,7 @@ _PyEval_RequestCodeExtraIndex(freefunc free)
+ }
+ 
+ static void
+-dtrace_function_entry(PyFrameObject *f)
++pytrace_function_entry(PyFrameObject *f)
+ {
+     char* filename;
+     char* funcname;
+@@ -5519,11 +5520,11 @@ dtrace_function_entry(PyFrameObject *f)
+     funcname = PyUnicode_AsUTF8(f->f_code->co_name);
+     lineno = PyCode_Addr2Line(f->f_code, f->f_lasti);
+ 
+-    PyDTrace_FUNCTION_ENTRY(filename, funcname, lineno);
++    PyTrace(function__entry, filename, funcname, lineno);
+ }
+ 
+ static void
+-dtrace_function_return(PyFrameObject *f)
++pytrace_function_return(PyFrameObject *f)
+ {
+     char* filename;
+     char* funcname;
+@@ -5533,12 +5534,12 @@ dtrace_function_return(PyFrameObject *f)
+     funcname = PyUnicode_AsUTF8(f->f_code->co_name);
+     lineno = PyCode_Addr2Line(f->f_code, f->f_lasti);
+ 
+-    PyDTrace_FUNCTION_RETURN(filename, funcname, lineno);
++    PyTrace(function__return, filename, funcname, lineno);
+ }
+ 
+-/* DTrace equivalent of maybe_call_line_trace. */
++/* PyTrace equivalent of maybe_call_line_trace. */
+ static void
+-maybe_dtrace_line(PyFrameObject *frame,
++maybe_pytrace_line(PyFrameObject *frame,
+                   int *instr_lb, int *instr_ub, int *instr_prev)
+ {
+     int line = frame->f_lineno;
+@@ -5565,7 +5566,7 @@ maybe_dtrace_line(PyFrameObject *frame,
+         co_name = PyUnicode_AsUTF8(frame->f_code->co_name);
+         if (!co_name)
+             co_name = "?";
+-        PyDTrace_LINE(co_filename, co_name, line);
++        PyTrace(line, co_filename, co_name, line);
+     }
+     *instr_prev = frame->f_lasti;
+ }
+diff --git a/configure b/configure
+index ed305a89b4..2be7b33f61 100755
+--- a/configure
++++ b/configure
+@@ -644,6 +644,8 @@ DYNLOADFILE
+ DLINCLDIR
+ DTRACE_OBJS
+ DTRACE_HEADERS
++LTTNGUST_OBJS
++LTTNGUST_HEADERS
+ DFLAGS
+ DTRACE
+ THREADOBJ
+@@ -837,6 +839,7 @@ with_doc_strings
+ with_pymalloc
+ with_valgrind
+ with_dtrace
++with_lttngust
+ with_fpectl
+ with_libm
+ with_libc
+@@ -1531,6 +1534,7 @@ Optional Packages:
+   --with(out)-pymalloc    disable/enable specialized mallocs
+   --with-valgrind         Enable Valgrind support
+   --with(out)-dtrace      disable/enable DTrace support
++  --with(out)-lttngust    disable/enable LTTng-UST support
+   --with-fpectl           enable SIGFPE catching
+   --with-libm=STRING      math library
+   --with-libc=STRING      C library
+@@ -11080,6 +11084,35 @@ fi
+ 
+     OPT="-DDYNAMIC_ANNOTATIONS_ENABLED=1 $OPT"
+ fi
++# Check for LTTng-UST support
++{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for --with-lttngust" >&5
++$as_echo_n "checking for --with-lttngust... " >&6; }
++
++# Check whether --with-dtrace was given.
++if test "${with_lttngust+set}" = set; then :
++  withval=$with_lttngust;
++else
++  with_lttngust=no
++fi
++
++LTTNGUST_HEADERS=
++LTTNGUST_OBJS=
++if test "$with_lttngust" = "yes"
++then
++  test_file=$(mktemp --suffix .c)
++  echo -e "#include <lttng/tracepoint.h>\n int main(void){return 0;}" > $test_file
++  if gcc -Werror -Wl,--no-as-needed -ldl $test_file 2> /dev/null
++  then
++    $as_echo "#define WITH_LTTNGUST 1" >>confdefs.h
++    LIBS="-ldl -llttng-ust  $LIBS"
++    LTTNGUST_HEADERS="Include/pylttngust_probes.h"
++    LTTNGUST_OBJS="Objects/pylttngust.o"
++  else
++    as_fn_error $? "Error while testing lttng/tracepoint header file." "$LINENO" 5
++    with_lttngust=no
++  fi
++  rm $test_file
++fi
+ 
+ # Check for DTrace support
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for --with-dtrace" >&5
+diff --git a/pyconfig.h.in b/pyconfig.h.in
+index cdcb5704a8..70e323e7a7 100644
+--- a/pyconfig.h.in
++++ b/pyconfig.h.in
+@@ -1379,6 +1379,9 @@
+ /* Define if you want to compile in DTrace support */
+ #undef WITH_DTRACE
+ 
++/* Define if you want to compile in LTTng-UST support */
++#undef WITH_LTTNGUST
++
+ /* Define if you want to use the new-style (Openstep, Rhapsody, MacOS) dynamic
+    linker (dyld) instead of the old-style (NextStep) dynamic linker (rld).
+    Dyld is necessary to support frameworks. */
+-- 
+2.15.0
+

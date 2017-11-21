@@ -2,8 +2,8 @@
 
 Here is the content of my presentation at PyCon Canada 2017.
 
-Aside from the presentation, you will find an example demonstrating
-an example of a Babeltrace 2 component implemented in Python. The
+Aside from the presentation, you will find examples showing
+how to implement and use a Babeltrace 2 component implemented in Python. The
 component is imaginatively named `sink.pycon.StackView` (see
 [`bt_plugin_pycon.py`](https://github.com/jgalar/PyConCanada2017/blob/master/bt_plugin_pycon.py)).
 

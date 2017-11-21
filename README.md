@@ -165,6 +165,10 @@ on this mechanism.
 
 #### Setup a tracing session
 
+The `4_trace_py_native.sh` script sets up a session which, on top of those
+created in the previous examples, enables everything we need to trace
+native/`C` functions.
+
 ```
 # Create a live session
 lttng create py_native --live

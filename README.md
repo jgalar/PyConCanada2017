@@ -132,7 +132,7 @@ all interact with each other using our component.
 
 ### 4) Tracing Python logging statements + syscalls + Python functions + CPython functions
 
-Finally, we can go even one level deeper: let's see how we can trace C
+Finally, we can go one level deeper. Let's see how we can trace C
 functions being invoked _inside_ the CPython interpreter.
 
 This requires a bit more work since we must build our own Python interpreter.
@@ -211,10 +211,10 @@ LD_PRELOAD=/usr/lib/liblttng-ust-cyg-profile-fast.so python httpserver.py
 As you can see in the demo below, we now see all the syscalls and C functions
 that go into the execution of our Python web server!
 
-Of course, this is way too much information if you're not working on some very
+Of course, this is way too much information if you are not debugging a very
 precise problem within CPython. However, it shows how easily LTTng can be used
 to collect pretty much any information you need to understand what is going on
-on your system.
+at any layer of your system.
 
 [![asciicast](https://asciinema.org/a/zhmsHbufyn1HiWXWhlB1HGL3U.png)](https://asciinema.org/a/zhmsHbufyn1HiWXWhlB1HGL3U)
 

@@ -1,6 +1,8 @@
 # PyCon Canada 2017
 
-Here is the content of my presentation at PyCon Canada 2017.
+[![Using Python to make sense of system traces](https://img.youtube.com/vi/gKmtmPqr6H8/0.jpg)](https://www.youtube.com/watch?v=gKmtmPqr6H8)
+
+This repository contains the content of my presentation at PyCon Canada 2017.
 
 Aside from the presentation, you will find examples showing
 how to create and use a Babeltrace 2 component implemented in Python. The

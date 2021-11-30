@@ -6,16 +6,16 @@ from termcolor import colored
 
 @bt2.plugin_component_class
 class StackView(bt2._UserSinkComponent):
-    def __init__(self, params):
+    def __init__(self, config, params, obj):
         self._indent_level = 0
         self._last_timestamp = None
-        self._add_input_port("my_input_port")
+        self._my_input_port = self._add_input_port("my_input_port")
 
-    def _print_time(self, notification, color=None):
-        event = notification.event
-        clock_class_prio_map = notification.clock_class_priority_map
-        clock_class = clock_class_prio_map.highest_priority_clock_class
-        timestamp_ns = event.clock_value(clock_class).ns_from_epoch
+    def _user_graph_is_configured(self):
+        self._iterator = self._create_message_iterator(self._my_input_port)
+
+    def _print_time(self, msg, color=None):
+        timestamp_ns = msg.default_clock_snapshot.ns_from_origin
 
         if self._last_timestamp is None:
             disp_time = str(datetime.datetime.fromtimestamp(timestamp_ns / 1e9))
@@ -47,9 +47,9 @@ class StackView(bt2._UserSinkComponent):
         print(disp_time + "  " * self._indent_level, end="")
         self._last_timestamp = timestamp_ns
 
-    def _on_scope_entry(self, notification):
+    def _on_scope_entry(self, msg):
         self._indent_level += 1
-        self._print_time(notification)
+        self._print_time(msg)
 
     def _on_scope_exit(self):
         if self._indent_level > 0:
@@ -57,9 +57,9 @@ class StackView(bt2._UserSinkComponent):
 
         print(end="", flush=True)
 
-    def _on_native_function_entry(self, notification):
-        self._on_scope_entry(notification)
-        function_name = notification.event["debug_info"]["func"][:-2]
+    def _on_native_function_entry(self, msg):
+        self._on_scope_entry(msg)
+        function_name = msg.event["debug_info"]["func"][:-2]
 
         if function_name == "":
             function_name = "???"
@@ -72,9 +72,9 @@ class StackView(bt2._UserSinkComponent):
 
         self._on_scope_exit()
 
-    def _on_python_function_entry(self, notification):
-        self._on_scope_entry(notification)
-        event = notification.event
+    def _on_python_function_entry(self, msg):
+        self._on_scope_entry(msg)
+        event = msg.event
         colored_func_name = colored(event["co_name"], "green", attrs=["bold"])
         print(
             "{}() [{}:{}]".format(
@@ -90,13 +90,13 @@ class StackView(bt2._UserSinkComponent):
 
         self._on_scope_exit()
 
-    def _on_syscall_entry(self, notification):
-        self._on_scope_entry(notification)
-        event_name = notification.event.name[14:]
+    def _on_syscall_entry(self, msg):
+        self._on_scope_entry(msg)
+        event_name = msg.event.name[14:]
         print(colored(event_name, "cyan", attrs=["bold"]) + "(", end="")
         first_field = True
 
-        for name, value in notification.event.payload_field.items():
+        for name, value in msg.event.payload_field.items():
             if not first_field:
                 print(", ", end="")
 
@@ -105,11 +105,11 @@ class StackView(bt2._UserSinkComponent):
 
         print(")", end="")
 
-    def _on_syscall_exit(self, notification):
+    def _on_syscall_exit(self, msg):
         if self._last_timestamp is None:
             return
 
-        ret = notification.event["ret"]
+        ret = msg.event["ret"]
 
         if ret < 0:
             print(colored(" = {}".format(ret), "red", attrs=["bold"]))
@@ -118,33 +118,32 @@ class StackView(bt2._UserSinkComponent):
 
         self._on_scope_exit()
 
-    def _on_python_logging_statement(self, notification):
-        self._on_scope_entry(notification)
-        print(colored(notification.event["msg"], "magenta", attrs=["bold"]))
+    def _on_python_logging_statement(self, msg):
+        self._on_scope_entry(msg)
+        print(colored(msg.event["msg"], "magenta", attrs=["bold"]))
         self._on_scope_exit()
 
-    def _port_connected(self, port, other_port):
-        subscribe = [bt2.EventNotification]
-        self._iterator = port.connection.create_notification_iterator(subscribe)
-        return True
+    def _user_consume(self):
+        msg = next(self._iterator)
 
-    def _consume(self):
-        notification = next(self._iterator)
-        event_name = notification.event.name
+        if type(msg) is not bt2._EventMessageConst:
+            return
+
+        event_name = msg.event.name
         is_syscall_getpid = event_name.endswith("getpid")
 
         if event_name == "lttng_python:event":
-            self._on_python_logging_statement(notification)
+            self._on_python_logging_statement(msg)
         elif event_name.startswith("syscall_entry") and not is_syscall_getpid:
-            self._on_syscall_entry(notification)
+            self._on_syscall_entry(msg)
         elif event_name.startswith("syscall_exit") and not is_syscall_getpid:
-            self._on_syscall_exit(notification)
+            self._on_syscall_exit(msg)
         elif event_name == "python:function__entry":
-            self._on_python_function_entry(notification)
+            self._on_python_function_entry(msg)
         elif event_name == "python:function__return":
             self._on_python_function_exit()
         elif event_name == "lttng_ust_cyg_profile_fast:func_entry":
-            self._on_native_function_entry(notification)
+            self._on_native_function_entry(msg)
         elif event_name == "lttng_ust_cyg_profile_fast:func_exit":
             self._on_native_function_exit()
 

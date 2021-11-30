@@ -1,5 +1,8 @@
 #!/bin/sh
 
+set -e
+set -x
+
 if [ $# -eq 0 ]
   then
     echo "Usage: `basename "$0"` PID"
